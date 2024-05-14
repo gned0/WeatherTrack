@@ -70,8 +70,8 @@ jobs:
       with:
         node-version: 18
     - name: Install JavaScript dependencies
-      working-directory: app
+      working-directory: app-backend
       run: npm ci
     - name: Run JavaScript tests
-      working-directory: app
+      working-directory: app-backend
       run: npm test
