@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="map-title">Locations Map</h1>
-    <div id="map" style="height: 600px; padding-top: 60px;"></div>
+    <div id="map" style="height: 600px; padding-top: 60px"></div>
     <div v-if="showInfoWindow" class="info-window">
       <div class="window-content">
         <h2>{{ selectedLocation }}</h2>
@@ -15,31 +15,27 @@
 <script>
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import api from "../api";
 
 export default {
   data() {
     return {
       map: null,
-      points: [
-        { lat: 37.7749, lng: -122.4194, location: "San Francisco" },
-        { lat: 51.5074, lng: -0.1278, location: "London" },
-        { lat: 48.8566, lng: 2.3522, location: "Paris" },
-        { lat: 34.0522, lng: -118.2437, location: "Los Angeles" },
-        { lat: 52.3676, lng: 4.9041, location: "Amsterdam" },
-        { lat: 41.9028, lng: 12.4964, location: "Rome" },
-        { lat: 40.7128, lng: -74.006, location: "New York" },
-        { lat: 48.1351, lng: 11.582, location: "Munich" },
-        { lat: 49.2827, lng: -123.1207, location: "Vancouver" },
-        { lat: -33.8688, lng: 151.2093, location: "Sydney" },
-      ],
+      points: [],
       selectedLocation: null,
       selectedLatitude: null,
       selectedLongitude: null,
       showInfoWindow: false,
     };
   },
-  mounted() {
+  async mounted() {
     this.initMap();
+    const response = await api.get('/coordinates');
+    this.points = response.data.map(location => ({
+      lat: location.latitude,
+      lng: location.longitude,
+      location: location.name
+    }));
     this.addPoints();
   },
   methods: {
@@ -63,11 +59,12 @@ export default {
       this.points.forEach((point) => {
         const marker = L.marker([point.lat, point.lng])
           .addTo(this.map)
-          .on("mouseover", () => {
-            this.showInfo(point.lat, point.lng, point.location);
+          .bindTooltip(point.location, { permanent: false, direction: "right" })
+          .on("mouseover", function (e) {
+            this.openTooltip();
           })
-          .on("mouseout", () => {
-            this.hideInfo();
+          .on("mouseout", function (e) {
+            this.closeTooltip();
           })
           .on("click", () => {
             this.$router.push({ path: "/data-display" });

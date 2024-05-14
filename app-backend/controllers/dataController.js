@@ -1,5 +1,6 @@
 const dataModel = require("../models/dataModel.js");
 const anomalyModel = require("../models/anomalyModel");
+const locationModel = require("../models/locationModel");
 
 exports.showAllData = async (req, res) => {
   try {
@@ -351,3 +352,14 @@ exports.getAnomalies = async (req, res) => {
     res.status(500).json({ e: "Internal Server Error" });
   }
 };
+
+exports.getAllCoordinates = async (req, res) => {
+  try {
+    const locations = await locationModel.find({});
+    res.json(locations);
+    console.log(locations);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
+  }
+}

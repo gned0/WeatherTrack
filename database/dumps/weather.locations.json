@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Bologna",
+    "latitude": 44.4934,
+    "longitude": 11.3428
+  },
+  {
+    "name": "Chamonix",
+    "latitude": 45.9231,
+    "longitude": 6.8681
+  },
+  {
+    "name": "Palermo",
+    "latitude": 38.1156,
+    "longitude": 13.3614
+  }
+]

@@ -292,4 +292,6 @@ router.get("/data/span", verifyToken, dataController.getDataInTimespan);
  */
 router.get("/anomalies", dataController.getAnomalies);
 
+router.get("/coordinates", verifyToken, dataController.getAllCoordinates)
+
 module.exports = router;
