@@ -1,0 +1,15 @@
+FROM python:3.8-slim
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install --trusted-host pypi.python.org pika requests
+
+ENV RABBITMQ_QUEUE=weather
+ENV SENSOR_LOCATION=Bologna
+ENV SENSOR_LONGITUDE=11.342616
+ENV SENSOR_LATITUDE=44.494887
+ENV FREQUENCY=20
+
+CMD ["python", "sensor.py"]

@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "661fd8308fcb57c2b206ba30"
+  },
+  "userId": {
+    "$oid": "661fd8078fcb57c2b206ba2a"
+  },
+  "title": "Add a sensor for my hometown",
+  "description": "Hello! I'd like you to add a sensor for my hometown Comacchio. Best regards.",
+  "status": "pending",
+  "createdAt": {
+    "$date": "2024-04-17T14:09:52.733Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fd9d88fcb57c2b206ba53"
+  },
+  "userId": {
+    "$oid": "661fd96e8fcb57c2b206ba4d"
+  },
+  "title": "Add feature",
+  "description": "Hi! I would really like for the website to have a weather prediction feature so that I know if I should take my umbrella with me when I go out. Thanks.",
+  "status": "pending",
+  "createdAt": {
+    "$date": "2024-04-17T14:16:56.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fda898fcb57c2b206ba78"
+  },
+  "userId": {
+    "$oid": "661fda5d8fcb57c2b206ba70"
+  },
+  "title": "Add Rimini",
+  "description": "Can you add Rimini as a location so I know if it's hot enough for a day at the beach?",
+  "status": "pending",
+  "createdAt": {
+    "$date": "2024-04-17T14:19:53.104Z"
+  },
+  "__v": 0
+}]

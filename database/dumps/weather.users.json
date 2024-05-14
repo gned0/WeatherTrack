@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "661fd8078fcb57c2b206ba2a"
+  },
+  "username": "user1",
+  "password": "$2a$08$FJI/yunpW7vAchhEPYh86ufmwjteBULMHTp0nErLvc0TKK4v5Q7zO",
+  "email": "user1@gmail.com",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fd8518fcb57c2b206ba40"
+  },
+  "username": "admin",
+  "password": "$2a$08$ChNtJ7lxh82N7FEVMSXbOOrjwLsJ0ZcpHUf4CP3fck7FzodNqhUrS",
+  "email": "admin@mail.com",
+  "role": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fd96e8fcb57c2b206ba4d"
+  },
+  "username": "user2",
+  "password": "$2a$08$VBP8zBynBlqbRBbLZFTwM.G3U0VwFsE/hg3/3h8kn41SGNSMSiCCO",
+  "email": "user2@outlook.com",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fda5d8fcb57c2b206ba70"
+  },
+  "username": "user",
+  "password": "$2a$08$Y8lS9Q.PQmTTBrO4dL/HhuZEvxCavZQKohAQBp3/iBz8Vj1edQkWG",
+  "email": "user@icloud.com",
+  "role": "user",
+  "__v": 0
+}]

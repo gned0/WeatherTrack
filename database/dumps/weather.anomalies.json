@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "661fe6d60e7db2b7296ba8c3"
+  },
+  "timestamp": {
+    "$date": "2024-04-17T10:53:09.000Z"
+  },
+  "location": "Bologna",
+  "attribute": "wind_speed",
+  "value": 112
+},
+{
+  "_id": {
+    "$oid": "661fe7160e7db2b7296ba8d8"
+  },
+  "timestamp": {
+    "$date": "2024-08-12T12:21:09.000Z"
+  },
+  "location": "Rome",
+  "attribute": "temperature",
+  "value": 41
+},
+{
+  "_id": {
+    "$oid": "661fe73c0e7db2b7296ba8e6"
+  },
+  "timestamp": {
+    "$date": "2024-04-15T12:11:43.000Z"
+  },
+  "location": "Rome",
+  "attribute": "temperature",
+  "value": 31
+}]

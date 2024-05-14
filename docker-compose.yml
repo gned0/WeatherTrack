@@ -1,0 +1,87 @@
+version: "3"
+
+services:
+  rabbitmq-broker:
+    image: rabbitmq:3.8-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  weather-sensor-bologna:
+    build:
+      context: ./sensor
+      dockerfile: Dockerfile_sensor_bologna
+    env_file:
+      - ../secrets.txt 
+    depends_on:
+      - rabbitmq-broker
+    deploy:
+      replicas: 1
+
+  weather-sensor-chamonix:
+    build:
+      context: ./sensor
+      dockerfile: Dockerfile_sensor_chamonix
+    env_file:
+      - ../secrets.txt
+    depends_on:
+      - rabbitmq-broker
+    deploy:
+      replicas: 1
+
+  weather-sensor-palermo:
+    build:
+      context: ./sensor
+      dockerfile: Dockerfile_sensor_palermo
+    env_file:
+      - ../secrets.txt
+    depends_on:
+      - rabbitmq-broker
+    deploy:
+      replicas: 1       
+
+  message-consumer:
+    build:
+      context: ./consumer
+      dockerfile: Dockerfile_consumer
+    environment:
+      - RABBITMQ_QUEUE=weather
+      - MONGODB_HOST=mongodb://mongo:27017/?directConnection=true
+    depends_on:
+      - rabbitmq-broker
+      - mongo
+
+  mongo:
+    build:
+      context: ./database
+      dockerfile: Dockerfile_database
+    environment:
+      - MONGODB_HOST=mongodb://mongo:27017/?directConnection=true
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data_container:/data/db
+    command: mongod --replSet rs0 --bind_ip_all
+
+  app-backend:
+    build:
+      context: ./app-backend
+      dockerfile: Dockerfile_backend
+    environment:
+      - MONGODB_HOST=mongo
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+
+  app-frontend:
+    build:
+      context: ./app-frontend
+      dockerfile: Dockerfile_frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - app-backend
+
+volumes:
+  mongo_data_container:  
