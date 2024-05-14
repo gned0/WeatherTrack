@@ -8,6 +8,9 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
+            <router-link to="/map" class="nav-link" @click="toggleNavbar">Map</router-link>
+          </li>  
+          <li class="nav-item">
             <router-link to="/data-display" class="nav-link" @click="toggleNavbar">Data</router-link>
           </li>
           <li class="nav-item">

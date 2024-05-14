@@ -12,6 +12,7 @@ import Forbidden from "@/views/ForbiddenView.vue";
 import Anomalies from "@/views/AnomaliesView.vue";
 import ManageRequests from "@/views/ManageRequestsView.vue";
 import UserRequests from "@/views/UserRequestsView.vue";
+import Map from "@/views/MapView.vue";
 
 const routes = [
   {
@@ -77,6 +78,11 @@ const routes = [
   {
     path: "/forbidden",
     component: Forbidden,
+    meta: { requiresAuth: true, requiresAdmin: false },
+  },
+  {
+    path: "/map",
+    component: Map,
     meta: { requiresAuth: true, requiresAdmin: false },
   },
 ];
