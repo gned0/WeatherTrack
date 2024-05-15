@@ -60,8 +60,6 @@ jobs:
         image: mongo
         env:
           MONGODB_HOST: test-mongo
-        ports:
-          - 27018:27017
 
     steps:
     - uses: actions/checkout@v3
