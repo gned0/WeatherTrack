@@ -10,6 +10,7 @@ const authRouter = require("./routes/authRoutes");
 const userRouter = require("./routes/userRoutes");
 const dataRouter = require("./routes/dataRoutes");
 const reqRouter = require("./routes/reqRoutes");
+const notificationRouter = require("./routes/notificationRoutes");
 
 
 const app = express();
@@ -37,6 +38,7 @@ app.use(authRouter);
 app.use(userRouter);
 app.use(dataRouter);
 app.use(reqRouter);
+app.use(notificationRouter);
 
 app.use((req, res, next) => {
   console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
