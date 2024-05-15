@@ -356,8 +356,7 @@ exports.getAnomalies = async (req, res) => {
 exports.getAllCoordinates = async (req, res) => {
   try {
     const locations = await locationModel.find({});
-    res.json(locations);
-    console.log(locations);
+    res.json(locations);;
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: 'Server error' });
