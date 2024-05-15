@@ -52,7 +52,7 @@ jobs:
         env:
           MONGODB_HOST: test-mongo
         ports:
-          - 27017:27017
+          - 27018:27017
 
     steps:
     - uses: actions/checkout@v3
@@ -63,6 +63,11 @@ jobs:
     - name: Install JavaScript dependencies
       working-directory: app-backend
       run: npm ci
+    - name: Set up environment variables
+      run: |
+        echo "MONGODB_HOST=test-mongo" >> $GITHUB_ENV
     - name: Run JavaScript tests
       working-directory: app-backend
+      env:
+        MONGODB_HOST: ${{ env.MONGODB_HOST }}
       run: npm test
