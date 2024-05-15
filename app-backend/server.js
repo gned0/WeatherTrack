@@ -15,10 +15,12 @@ const reqRouter = require("./routes/reqRoutes");
 const app = express();
 const server = createServer(app);
 
-if (process.env.MONGODB_HOST == "test-mongo") {
-  uri = config.MONGO_URI_TEST;
-} else {
+if (process.env.MONGODB_HOST == "dev") {
+  console.log("Using development database");
   uri = config.MONGO_URI;
+} else {
+  console.log("Using test database");
+  uri = config.MONGO_URI_TEST;
 }
 
 mongoose
