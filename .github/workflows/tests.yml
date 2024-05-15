@@ -50,7 +50,7 @@ jobs:
       mongo:
         image: mongo
         env:
-          MONGODB_HOST: test-mongo
+          MONGODB_HOST: localhost
         ports:
           - 27018:27017
 

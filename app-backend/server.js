@@ -15,10 +15,9 @@ const reqRouter = require("./routes/reqRoutes");
 const app = express();
 const server = createServer(app);
 
-if(process.env.MONGODB_HOST == 'test-mongo') {
+if (process.env.MONGODB_HOST == "test-mongo") {
   uri = config.MONGO_URI_TEST;
-}
-else {
+} else {
   uri = config.MONGO_URI;
 }
 
