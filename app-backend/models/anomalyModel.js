@@ -38,6 +38,11 @@ const AnomalySchema = new mongoose.Schema({
   value: {
     type: Number,
     required: true
+  },
+  username: {
+    type: String,
+    ref: "User",
+    required: false,
   }
 });
 
