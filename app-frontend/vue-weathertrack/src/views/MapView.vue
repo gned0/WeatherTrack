@@ -30,11 +30,11 @@ export default {
   },
   async mounted() {
     this.initMap();
-    const response = await api.get('/coordinates');
-    this.points = response.data.map(location => ({
+    const response = await api.get("/coordinates");
+    this.points = response.data.map((location) => ({
       lat: location.latitude,
       lng: location.longitude,
-      location: location.name
+      location: location.name,
     }));
     this.addPoints();
   },
@@ -59,16 +59,38 @@ export default {
       this.points.forEach((point) => {
         const marker = L.marker([point.lat, point.lng])
           .addTo(this.map)
-          .bindTooltip(point.location, { permanent: false, direction: "right" })
-          .on("mouseover", function (e) {
-            this.openTooltip();
-          })
-          .on("mouseout", function (e) {
-            this.closeTooltip();
-          })
-          .on("click", () => {
-            this.$router.push({ path: "/data-display" });
-          });
+          .bindTooltip("", { permanent: false, direction: "right" });
+
+        marker.on(
+          "mouseover",
+          async function (e) {
+            try {
+              const response = await api.get(
+                `/data/latest?location=${point.location}`
+              );
+              const data = response.data;
+              const tooltipContent = `
+      <strong>${point.location}</strong><br>
+      Temperature: ${data.temperature.toFixed(1)}°C<br>
+      Humidity: ${data.humidity.toFixed(1)}%<br>
+      Wind Speed: ${data.wind_speed.toFixed(1)} km/h<br>
+      Condition: ${data.condition}<br>
+    `;
+              marker.setTooltipContent(tooltipContent);
+              marker.openTooltip();
+            } catch (error) {
+              console.error(error);
+            }
+          }.bind(this)
+        );
+
+        marker.on("mouseout", function (e) {
+          this.closeTooltip();
+        });
+
+        marker.on("click", () => {
+          this.$router.push({ path: "/data-display" });
+        });
       });
     },
     showInfo(lat, lng, location) {
