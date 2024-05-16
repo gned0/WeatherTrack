@@ -53,7 +53,7 @@
                   <td>{{ $filters.formatTimestamp(anomaly.timestamp) }}</td>
                   <td>{{ anomaly.location }}</td>
                   <td>{{ formatAttribute(anomaly.attribute) }}</td>
-                  <td>{{ anomaly.value }}</td>
+                  <td>{{ anomaly.value.toFixed(1) }}</td>
                 </tr>
               </tbody>
             </table>
