@@ -9,27 +9,43 @@
 
 <script>
 import { mapGetters } from "vuex";
+import { jwtDecode } from "jwt-decode";
 
 export default {
   computed: {
     ...mapGetters(["getNotificationSocket"]),
+    userid() {
+      const token = this.$store.state.authModule.token;
+      if (token) {
+        const decoded = jwtDecode(token);
+        const userId = decoded.userId;
+        return userId;
+      }
+      return null;
+    },
   },
   mounted() {
     this.getNotificationSocket.on("newAnomaly", (anomaly) => {
-      console.log("New anomaly received:", anomaly);
-      this.notificationMessage =
-        "Alert! Weather anomaly detected: " +
-        anomaly.attribute + " "+ anomaly.value +
-        ", " +
-        this.$filters.formatTimestamp(anomaly.timestamp) +
-        " in " +
-        anomaly.location +
-        ".";
-      this.showNotification = true;
+      if (anomaly.userid === this.userid) {
+        console.log("New anomaly received for the current user:", anomaly);
+        this.notificationMessage =
+          "Alert! Weather anomaly detected: " +
+          anomaly.attribute +
+          " " +
+          anomaly.value +
+          ", " +
+          this.$filters.formatTimestamp(anomaly.timestamp) +
+          " in " +
+          anomaly.location +
+          ".";
+        this.showNotification = true;
 
-      setTimeout(() => {
-        this.showNotification = false;
-      }, 5000);
+        setTimeout(() => {
+          this.showNotification = false;
+        }, 5000);
+      } else {
+        console.log("New anomaly received for a different user:", anomaly);
+      }
     });
   },
   methods: {
@@ -54,6 +70,6 @@ export default {
   right: 0;
   z-index: 999;
   padding: 4rem;
-  background-color: #fff; 
+  background-color: #fff;
 }
 </style>
