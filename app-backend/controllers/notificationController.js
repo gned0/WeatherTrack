@@ -1,6 +1,7 @@
 const Notification = require("../models/notificationModel");
 
 exports.create = (req, res) => {
+  console.log("create", req.body)
   if (!req.body.username || !req.body.location || !req.body.attribute || !req.body.operand || !req.body.threshold) {
     return res.status(500).send({ message: "All fields are required" });
   }
@@ -24,6 +25,7 @@ exports.create = (req, res) => {
 };
 
 exports.findAll = (req, res) => {
+  console.log("findAll")
   Notification.find()
     .then((notifications) => {
       res.send(notifications);

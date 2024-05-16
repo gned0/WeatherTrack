@@ -39,8 +39,8 @@ const AnomalySchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  username: {
-    type: String,
+  userid: {
+    type: mongoose.Schema.Types.ObjectId,
     ref: "User",
     required: false,
   }

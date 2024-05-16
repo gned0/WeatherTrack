@@ -327,8 +327,8 @@ exports.getDataInTimespan = async (req, res) => {
 
 exports.getAnomalies = async (req, res) => {
   try {
-    const { location, attribute } = req.query;
-    const query = {};
+    const { location, attribute, userid } = req.query;
+    const query = { userid };
 
     if (location) {
       query.location = location;
@@ -341,9 +341,7 @@ exports.getAnomalies = async (req, res) => {
     const anomalies = await anomalyModel.find(query);
 
     if (!anomalies || anomalies.length === 0) {
-      return res.status(404).json({
-        error: "No anomalies found",
-      });
+      return res.status(404).json({ error: "No anomalies found" });
     }
 
     res.json(anomalies);
