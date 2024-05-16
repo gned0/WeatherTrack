@@ -2,12 +2,12 @@ const Notification = require("../models/notificationModel");
 
 exports.create = (req, res) => {
   console.log("create", req.body)
-  if (!req.body.username || !req.body.location || !req.body.attribute || !req.body.operand || !req.body.threshold) {
+  if (!req.body.userid || !req.body.location || !req.body.attribute || !req.body.operand || !req.body.threshold) {
     return res.status(500).send({ message: "All fields are required" });
   }
 
   const notification = new Notification({
-    username: req.body.username,
+    userid: req.body.userid,
     location: req.body.location,
     attribute: req.body.attribute,
     operand: req.body.operand,
@@ -50,7 +50,7 @@ exports.findOne = (req, res) => {
 
 exports.update = (req, res) => {
   Notification.findByIdAndUpdate(req.params.id, {
-    username: req.body.username,
+    userid: req.body.userid,
     location: req.body.location,
     attribute: req.body.attribute,
     operand: req.body.operand,

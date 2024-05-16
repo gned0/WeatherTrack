@@ -204,7 +204,7 @@ export default {
         location && attribute && operand && threshold !== null && threshold !== ""
       );
     },
-    username() {
+    userid() {
       const token = this.$store.state.authModule.token;
       if (token) {
         const decoded = jwtDecode(token);
@@ -219,7 +219,7 @@ export default {
       try {
         const response = await api.get("/anomalies", {
           params: {
-            userid: this.username,
+            userid: this.userid,
             location: this.selectedLocation,
             attribute: this.selectedAttribute,
           },
@@ -255,7 +255,7 @@ export default {
       try {
         const response = await api.get("/notifications", {
           params: {
-            username: this.username,
+            userid: this.userid,
           },
         });
         this.notifications = response.data;
@@ -269,10 +269,10 @@ export default {
           "/notifications",
           {
             ...this.newNotification,
-            username: this.username,
+            userid: this.userid,
           }
         );
-        this.notifications.push(response.data);
+        this.fetchNotifications();
         this.resetNewNotification();
       } catch (error) {
         console.error("Error creating notification:", error);
@@ -285,7 +285,7 @@ export default {
       try {
         await api.delete(`/notifications/${notification._id}`, {
           params: {
-            username: this.username,
+            userid: this.userid,
           },
         });
         this.notifications = this.notifications.filter(
