@@ -44,6 +44,7 @@ async function setupAnomalyStream(io, Notification) {
   console.log("Setting up anomaly stream");
 
   const notifications = io.of("/notifications");
+  const downtimeCache = new Map();
 
   notifications.on("connection", (socket) => {
     console.log("A user connected to the anomaly stream");
@@ -61,17 +62,15 @@ async function setupAnomalyStream(io, Notification) {
         });
         console.log("Location:", newDataPoint.location);
         console.log("Matching notifications:", matchingNotifications);
-        matchingNotifications.forEach((notification) => {
+
+        for (const notification of matchingNotifications) {
           const { operand, threshold, attribute, userid } = notification;
           let isAnomaly = false;
 
           if (attribute === "temperature") {
             if (operand === "gt" && newDataPoint.temperature > threshold) {
               isAnomaly = true;
-            } else if (
-              operand === "lt" &&
-              newDataPoint.temperature < threshold
-            ) {
+            } else if (operand === "lt" && newDataPoint.temperature < threshold) {
               isAnomaly = true;
             }
           } else if (attribute === "humidity") {
@@ -83,42 +82,41 @@ async function setupAnomalyStream(io, Notification) {
           } else if (attribute === "wind_speed") {
             if (operand === "gt" && newDataPoint.wind_speed > threshold) {
               isAnomaly = true;
-            } else if (
-              operand === "lt" &&
-              newDataPoint.wind_speed < threshold
-            ) {
+            } else if (operand === "lt" && newDataPoint.wind_speed < threshold) {
               isAnomaly = true;
             }
           }
 
           if (isAnomaly) {
-            let value;
-            if (attribute === "temperature") {
-              value = newDataPoint.temperature;
-            } else if (attribute === "humidity") {
-              value = newDataPoint.humidity;
-            } else if (attribute === "wind_speed") {
-              value = newDataPoint.wind_speed;
-            }
+            const cacheKey = `${newDataPoint.location}-${attribute}-${userid}`;
+            const lastNotificationTime = downtimeCache.get(cacheKey) || 0;
+            const downtime = 10 * 60 * 1000; // 10 minutes 
+            console.log("Cache key:", cacheKey, "Last notification time:", lastNotificationTime, "Downtime:", downtime);
+            if (Date.now() - lastNotificationTime >= downtime) {
+              console.log(Date.now() - lastNotificationTime, ">", downtime, "=>", true);
+              const newAnomaly = new Anomaly({
+                timestamp: newDataPoint.timestamp,
+                location: newDataPoint.location,
+                attribute: attribute,
+                value: newDataPoint[attribute],
+                userid: userid,
+              });
 
-            const newAnomaly = new Anomaly({
-              timestamp: newDataPoint.timestamp,
-              location: newDataPoint.location,
-              attribute: attribute,
-              value: value,
-              userid: userid,
-            });
+              try {
+                await newAnomaly.save();
+                console.log("New anomaly saved to the database:", newAnomaly);
+                notifications.emit("newAnomaly", newAnomaly);
+                console.log("Emitting new anomaly to clients:", newAnomaly);
 
-            try {
-              newAnomaly.save();
-              console.log("New anomaly saved to the database:", newAnomaly);
-              notifications.emit("newAnomaly", newAnomaly);
-              console.log("Emitting new anomaly to clients:", newAnomaly);
-            } catch (err) {
-              console.error("Error saving anomaly to the database:", err);
+                downtimeCache.set(cacheKey, Date.now());
+              } catch (err) {
+                console.error("Error saving anomaly to the database:", err);
+              }
+            } else {
+              console.log(`Downtime in effect for ${cacheKey}, skipping notification.`);
             }
           }
-        });
+        }
       }
     });
   });
