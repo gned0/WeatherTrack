@@ -14,31 +14,6 @@ collection = db['dataPoints']
 
 queue_name = "weather"
 
-thresholds = {
-    'temperature': (0, 30),
-    'wind_speed': (0, 100),
-}
-
-def check_for_anomalies(data, thresholds):
-    """
-    Checks if the data contains any anomalies based on the attribute thresholds.
-    If an anomaly is detected it is added it to the MongoDB collection.
-    """
-    for attribute, (lower_threshold, upper_threshold) in thresholds.items():
-        if data[attribute] > upper_threshold or data[attribute] < lower_threshold:
-            print(f"Anomaly detected for attribute {attribute} in data: {data}")
-            store_anomaly(data, attribute)
-            
-def store_anomaly(data, attribute):
-    anomaly = {
-        'timestamp': data['timestamp'],
-        'location': data['location'],
-        'attribute': attribute,
-        'value': data[attribute]
-    }
-    db['anomalies'].insert_one(anomaly)
-    print(f"Anomaly stored: {anomaly}")
-
 def callback(ch, method, properties, body):
     data = json.loads(body.decode('utf-8'))
     print(f"Received message: {data}")
@@ -52,8 +27,6 @@ def callback(ch, method, properties, body):
     else:
         collection.insert_one(data)
         print(f"Inserted document: {data}")
-        
-    check_for_anomalies(data, thresholds)
 
 def start_consuming():
     connection = pika.BlockingConnection(pika.ConnectionParameters('rabbitmq-broker'))
