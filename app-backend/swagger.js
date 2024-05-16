@@ -1,6 +1,5 @@
 const swaggerJSDoc = require("swagger-jsdoc");
 const fs = require("fs");
-const yamljs = require("yamljs");
 
 const swaggerOptions = {
   swaggerDefinition: {
