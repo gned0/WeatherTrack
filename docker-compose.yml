@@ -12,7 +12,7 @@ services:
       context: ./sensor
       dockerfile: Dockerfile_sensor_bologna
     env_file:
-      - ../secrets.txt 
+      - ./config/secrets.txt
     depends_on:
       - rabbitmq-broker
     deploy:
@@ -23,7 +23,7 @@ services:
       context: ./sensor
       dockerfile: Dockerfile_sensor_chamonix
     env_file:
-      - ../secrets.txt
+      - ./config/secrets.txt
     depends_on:
       - rabbitmq-broker
     deploy:
@@ -34,7 +34,7 @@ services:
       context: ./sensor
       dockerfile: Dockerfile_sensor_palermo
     env_file:
-      - ../secrets.txt
+      - ./config/secrets.txt
     depends_on:
       - rabbitmq-broker
     deploy:
