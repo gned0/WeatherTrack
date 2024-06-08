@@ -10819,4 +10819,1768 @@
   "humidity": 78,
   "wind_speed": 9.251999999999999,
   "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666427d3fa6d2e229d4ab8a7"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:43:47.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666427d4fa6d2e229d4ab8a8"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:43:48.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "666427e7fa6d2e229d4ab8a9"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:44:07.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666427eafa6d2e229d4ab8aa"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:44:10.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666427f2fa6d2e229d4ab8ab"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:44:18.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "666427fcfa6d2e229d4ab8ac"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:44:28.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642808fa6d2e229d4ab8ad"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:44:40.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642810fa6d2e229d4ab8ae"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:44:48.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642811fa6d2e229d4ab8af"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:44:49.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642824fa6d2e229d4ab8b0"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:45:08.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642827fa6d2e229d4ab8b1"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:45:11.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664282ffa6d2e229d4ab8b2"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:45:19.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642839fa6d2e229d4ab8b3"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:45:29.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642845fa6d2e229d4ab8b4"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:45:41.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664284dfa6d2e229d4ab8b5"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:45:49.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664284dfa6d2e229d4ab8b6"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:45:49.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642862fa6d2e229d4ab8b7"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:46:10.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642864fa6d2e229d4ab8b8"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:46:12.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664286dfa6d2e229d4ab8b9"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:46:21.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642877fa6d2e229d4ab8ba"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:46:31.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642883fa6d2e229d4ab8bb"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:46:43.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664288bfa6d2e229d4ab8bc"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:46:51.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "6664288bfa6d2e229d4ab8bd"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:46:51.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666428a0fa6d2e229d4ab8be"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:47:12.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666428a1fa6d2e229d4ab8bf"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:47:13.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666428a9fa6d2e229d4ab8c0"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:47:21.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "666428b4fa6d2e229d4ab8c1"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:47:32.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642952fa6d2e229d4ab8c2"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:50:10.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664295afa6d2e229d4ab8c3"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:50:18.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "6664295bfa6d2e229d4ab8c4"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:50:19.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664296ffa6d2e229d4ab8c5"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:50:39.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642970fa6d2e229d4ab8c6"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:50:40.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642978fa6d2e229d4ab8c7"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:50:48.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642983fa6d2e229d4ab8c8"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:50:59.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "6664298ffa6d2e229d4ab8c9"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:51:11.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642997fa6d2e229d4ab8ca"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:51:19.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642997fa6d2e229d4ab8cb"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:51:19.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429acfa6d2e229d4ab8cc"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:51:40.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429adfa6d2e229d4ab8cd"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:51:41.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429b5fa6d2e229d4ab8ce"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:51:49.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "666429c0fa6d2e229d4ab8cf"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:52:00.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429cbfa6d2e229d4ab8d0"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:52:11.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429d3fa6d2e229d4ab8d1"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:52:19.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "666429d4fa6d2e229d4ab8d2"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:52:20.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429e8fa6d2e229d4ab8d3"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:52:40.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429e9fa6d2e229d4ab8d4"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:52:41.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "666429f1fa6d2e229d4ab8d5"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:52:49.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "666429fcfa6d2e229d4ab8d6"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:53:00.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a07fa6d2e229d4ab8d7"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:53:11.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a10fa6d2e229d4ab8d8"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:53:20.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642a11fa6d2e229d4ab8d9"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:53:21.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a25fa6d2e229d4ab8da"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:53:41.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a26fa6d2e229d4ab8db"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:53:42.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a2efa6d2e229d4ab8dc"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:53:50.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642a39fa6d2e229d4ab8dd"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:54:01.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a44fa6d2e229d4ab8de"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:54:12.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a4cfa6d2e229d4ab8df"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:54:20.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642a4dfa6d2e229d4ab8e0"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:54:21.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a61fa6d2e229d4ab8e1"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:54:41.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a62fa6d2e229d4ab8e2"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:54:42.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a6bfa6d2e229d4ab8e3"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:54:51.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642a77fa6d2e229d4ab8e4"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:55:03.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.04000000000002,
+  "humidity": 64,
+  "wind_speed": 11.268,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a80fa6d2e229d4ab8e5"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:55:12.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a89fa6d2e229d4ab8e6"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:55:21.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642a8bfa6d2e229d4ab8e7"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:55:23.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642a9efa6d2e229d4ab8e8"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:55:42.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642aa0fa6d2e229d4ab8e9"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:55:44.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642aa7fa6d2e229d4ab8ea"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:55:51.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642ab4fa6d2e229d4ab8eb"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:56:04.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642abdfa6d2e229d4ab8ec"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:56:13.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642ac5fa6d2e229d4ab8ed"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:56:21.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642ac8fa6d2e229d4ab8ee"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:56:24.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642adbfa6d2e229d4ab8ef"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:56:43.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642adcfa6d2e229d4ab8f0"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:56:44.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642ae3fa6d2e229d4ab8f1"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:56:51.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642af0fa6d2e229d4ab8f2"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:57:04.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642af9fa6d2e229d4ab8f3"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:57:13.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b01fa6d2e229d4ab8f4"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:57:21.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642b05fa6d2e229d4ab8f5"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:57:25.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b17fa6d2e229d4ab8f6"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:57:43.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b19fa6d2e229d4ab8f7"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:57:45.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b20fa6d2e229d4ab8f8"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:57:52.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642ad45e97b1745a8a8044"
+  },
+  "timestamp": {
+    "$date": "2024-04-30T15:21:56.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "e3239a156073",
+  "temperature": 12.45,
+  "humidity": 63,
+  "wind_speed": 15.632,
+  "condition": "Clouds"
+},
+{
+  "_id": {
+    "$oid": "66642b2dfa6d2e229d4ab8f9"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:58:05.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b35fa6d2e229d4ab8fa"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:58:13.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b3efa6d2e229d4ab8fb"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:58:22.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642b41fa6d2e229d4ab8fc"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:58:25.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b275e97b1745a8a8045"
+  },
+  "timestamp": {
+    "$date": "2024-05-14T19:21:56.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "e3239a156073",
+  "temperature": 11.45,
+  "humidity": 70,
+  "wind_speed": 15.632,
+  "condition": "Clouds"
+},
+{
+  "_id": {
+    "$oid": "66642b56fa6d2e229d4ab8fd"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:58:46.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b56fa6d2e229d4ab8fe"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:58:46.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b5cfa6d2e229d4ab8ff"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:58:52.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642b6bfa6d2e229d4ab900"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:59:07.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b74fa6d2e229d4ab901"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:59:16.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b7bfa6d2e229d4ab902"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:59:23.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642b7ffa6d2e229d4ab903"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:59:27.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b595e97b1745a8a8046"
+  },
+  "timestamp": {
+    "$date": "2024-05-17T12:46:55.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "e8f48b4221ea",
+  "temperature": 9.560000000000002,
+  "humidity": 85,
+  "wind_speed": 4.16,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642b92fa6d2e229d4ab904"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:59:46.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.32000000000005,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b93fa6d2e229d4ab905"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:59:47.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642b835e97b1745a8a8047"
+  },
+  "timestamp": {
+    "$date": "2024-04-29T14:12:54.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "e8f48b4221ea",
+  "temperature": 9.560000000000002,
+  "humidity": 85,
+  "wind_speed": 4.16,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642b99fa6d2e229d4ab906"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T09:59:53.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.439999999999998,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642babfa6d2e229d4ab907"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:00:11.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.129999999999995,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bb1fa6d2e229d4ab908"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:00:17.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.150000000000034,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bb7fa6d2e229d4ab909"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:00:23.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.490000000000009,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642bbffa6d2e229d4ab90a"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:00:31.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bcffa6d2e229d4ab90b"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:00:47.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.150000000000034,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bd4fa6d2e229d4ab90c"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:00:52.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bd5fa6d2e229d4ab90d"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:00:53.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.490000000000009,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642be8fa6d2e229d4ab90e"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:01:12.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bedfa6d2e229d4ab90f"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:01:17.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.150000000000034,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bb35e97b1745a8a8048"
+  },
+  "timestamp": {
+    "$date": "2024-04-25T14:47:11.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "10e744098e69",
+  "temperature": 22.760000000000048,
+  "humidity": 41,
+  "wind_speed": 4.944,
+  "condition": "Sunny"
+},
+{
+  "_id": {
+    "$oid": "66642bf4fa6d2e229d4ab910"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:01:24.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.490000000000009,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642bfcfa6d2e229d4ab911"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:01:32.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642bf55e97b1745a8a8049"
+  },
+  "timestamp": {
+    "$date": "2024-04-15T14:47:11.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "10e744098e69",
+  "temperature": 21.760000000000048,
+  "humidity": 41,
+  "wind_speed": 4.944,
+  "condition": "Sunny"
+},
+{
+  "_id": {
+    "$oid": "66642c0bfa6d2e229d4ab912"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:01:47.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "5f4969ca596a",
+  "temperature": 18.150000000000034,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642c10fa6d2e229d4ab913"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:01:52.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "377d4b96ff43",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642c12fa6d2e229d4ab914"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:01:54.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "9a57757a8eb8",
+  "temperature": 15.490000000000009,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642cb4fe6fd621da01cff1"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:04:36.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "aca7460d6369",
+  "temperature": 15.490000000000009,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642cb4fe6fd621da01cff2"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:04:36.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "20c22d24e97e",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642cb4fe6fd621da01cff3"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:04:36.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "23dace117a23",
+  "temperature": 18.150000000000034,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642cc9fe6fd621da01cff4"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:04:57.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "20c22d24e97e",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642cd2fe6fd621da01cff5"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:05:06.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "aca7460d6369",
+  "temperature": 15.490000000000009,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642cd3fe6fd621da01cff6"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:05:07.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "23dace117a23",
+  "temperature": 18.150000000000034,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642cddfe6fd621da01cff7"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:05:17.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "20c22d24e97e",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642cf0fe6fd621da01cff8"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:05:36.000Z"
+  },
+  "location": "Chamonix",
+  "sensor_identifier": "aca7460d6369",
+  "temperature": 15.490000000000009,
+  "humidity": 61,
+  "wind_speed": 3.528,
+  "condition": "Rain"
+},
+{
+  "_id": {
+    "$oid": "66642cf1fe6fd621da01cff9"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:05:37.000Z"
+  },
+  "location": "Palermo",
+  "sensor_identifier": "23dace117a23",
+  "temperature": 18.150000000000034,
+  "humidity": 78,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
+},
+{
+  "_id": {
+    "$oid": "66642cf1fe6fd621da01cffa"
+  },
+  "timestamp": {
+    "$date": "2024-06-08T10:05:37.000Z"
+  },
+  "location": "Bologna",
+  "sensor_identifier": "20c22d24e97e",
+  "temperature": 27.24000000000001,
+  "humidity": 64,
+  "wind_speed": 9.251999999999999,
+  "condition": "Clear"
 }]
