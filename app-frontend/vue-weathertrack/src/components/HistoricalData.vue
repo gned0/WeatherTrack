@@ -1,7 +1,7 @@
 <template>
   <div class="card mb-3">
     <div class="card-body">
-      <h5 class="card-title">{{ location }} - Last 24 Hours</h5>
+      <h5 class="card-title">{{ location }} - Historical Data</h5>
       <canvas ref="chartRef"></canvas>
       <div v-if="insights">
         <p class="card-text">
