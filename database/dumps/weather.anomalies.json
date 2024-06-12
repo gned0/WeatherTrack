@@ -1,5 +1,16 @@
 [{
   "_id": {
+    "$oid": "661fe73c0e7db2b7296ba8e6"
+  },
+  "timestamp": {
+    "$date": "2024-04-15T12:11:43.000Z"
+  },
+  "location": "Rome",
+  "attribute": "temperature",
+  "value": 31
+},
+{
+  "_id": {
     "$oid": "661fe6d60e7db2b7296ba8c3"
   },
   "timestamp": {
@@ -22,12 +33,31 @@
 },
 {
   "_id": {
-    "$oid": "661fe73c0e7db2b7296ba8e6"
+    "$oid": "6669a5bbda5d0ccd4db1fe3c"
   },
   "timestamp": {
-    "$date": "2024-04-15T12:11:43.000Z"
+    "$date": "2024-06-12T13:42:19.000Z"
   },
-  "location": "Rome",
-  "attribute": "temperature",
-  "value": 31
+  "location": "Bologna",
+  "attribute": "humidity",
+  "value": 75,
+  "userid": {
+    "$oid": "661fd8518fcb57c2b206ba40"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6669a9e86aabfad2e6213b36"
+  },
+  "timestamp": {
+    "$date": "2024-06-12T14:00:08.000Z"
+  },
+  "location": "Bologna",
+  "attribute": "humidity",
+  "value": 66,
+  "userid": {
+    "$oid": "661fd8518fcb57c2b206ba40"
+  },
+  "__v": 0
 }]
