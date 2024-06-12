@@ -69,6 +69,7 @@
 
 <script>
 import api from "../api";
+import { jwtDecode } from "jwt-decode";
 
 export default {
   data() {
@@ -117,12 +118,20 @@ export default {
     },
     async createRequest() {
       try {
-        const response = await api.post("/requests", this.newRequest);
-        console.log(response.data);
-        this.newRequest.title = "";
-        this.newRequest.description = "";
-        this.showCreateRequestForm = false;
-        this.getAllRequests();
+        const token = this.$store.state.authModule.token;
+        if (token) {
+          const decoded = jwtDecode(token);
+          const userId = decoded.userId;
+          const response = await api.post("/requests", {
+            userId: userId,
+            title: this.newRequest.title,
+            description: this.newRequest.description,
+          });
+          this.title = "";
+          this.description = "";
+          this.showCreateRequestForm = false;
+          this.getAllRequests();
+        }
       } catch (error) {
         console.error(error);
       }
