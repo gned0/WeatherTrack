@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "666ab1b7610a0b86ceb52d5f"
+  },
+  "userid": {
+    "$oid": "661fd8518fcb57c2b206ba40"
+  },
+  "location": "Palermo",
+  "attribute": "wind_speed",
+  "operand": "gt",
+  "threshold": 50,
+  "createdAt": {
+    "$date": "2024-06-13T08:45:43.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666ab2e7610a0b86ceb52e83"
+  },
+  "userid": {
+    "$oid": "661fd8518fcb57c2b206ba40"
+  },
+  "location": "Chamonix",
+  "attribute": "temperature",
+  "operand": "gt",
+  "threshold": 25,
+  "createdAt": {
+    "$date": "2024-06-13T08:50:47.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666ac1afb64aa008396525d4"
+  },
+  "userid": {
+    "$oid": "661fda5d8fcb57c2b206ba70"
+  },
+  "location": "Bologna",
+  "attribute": "temperature",
+  "operand": "gt",
+  "threshold": 30,
+  "createdAt": {
+    "$date": "2024-06-13T09:53:51.331Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666ac1b9b64aa008396525d9"
+  },
+  "userid": {
+    "$oid": "661fda5d8fcb57c2b206ba70"
+  },
+  "location": "Bologna",
+  "attribute": "wind_speed",
+  "operand": "gt",
+  "threshold": 35,
+  "createdAt": {
+    "$date": "2024-06-13T09:54:01.254Z"
+  },
+  "__v": 0
+}]

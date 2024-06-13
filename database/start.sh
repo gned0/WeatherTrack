@@ -10,3 +10,4 @@ mongoimport --db weather --collection anomalies --type json --file /dumps/weathe
 mongoimport --db weather --collection dataPoints --type json --file /dumps/weather.dataPoints.json --jsonArray
 mongoimport --db weather --collection requests --type json --file /dumps/weather.requests.json --jsonArray
 mongoimport --db weather --collection users --type json --file /dumps/weather.users.json --jsonArray
+mongoimport --db weather --collection notifications --type json --file /dumps/weather.notifications.json --jsonArray
