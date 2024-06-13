@@ -1,46 +1,13 @@
 [{
   "_id": {
-    "$oid": "661fe73c0e7db2b7296ba8e6"
+    "$oid": "666ab1c3610a0b86ceb52d6c"
   },
   "timestamp": {
-    "$date": "2024-04-15T12:11:43.000Z"
+    "$date": "2024-06-13T08:45:55.000Z"
   },
-  "location": "Rome",
-  "attribute": "temperature",
-  "value": 31
-},
-{
-  "_id": {
-    "$oid": "661fe6d60e7db2b7296ba8c3"
-  },
-  "timestamp": {
-    "$date": "2024-04-17T10:53:09.000Z"
-  },
-  "location": "Bologna",
+  "location": "Palermo",
   "attribute": "wind_speed",
-  "value": 112
-},
-{
-  "_id": {
-    "$oid": "661fe7160e7db2b7296ba8d8"
-  },
-  "timestamp": {
-    "$date": "2024-08-12T12:21:09.000Z"
-  },
-  "location": "Rome",
-  "attribute": "temperature",
-  "value": 41
-},
-{
-  "_id": {
-    "$oid": "6669a5bbda5d0ccd4db1fe3c"
-  },
-  "timestamp": {
-    "$date": "2024-06-12T13:42:19.000Z"
-  },
-  "location": "Bologna",
-  "attribute": "humidity",
-  "value": 75,
+  "value": 24.084000000000003,
   "userid": {
     "$oid": "661fd8518fcb57c2b206ba40"
   },
@@ -48,14 +15,14 @@
 },
 {
   "_id": {
-    "$oid": "6669a9e86aabfad2e6213b36"
+    "$oid": "666ab304610a0b86ceb52ea5"
   },
   "timestamp": {
-    "$date": "2024-06-12T14:00:08.000Z"
+    "$date": "2024-06-13T08:51:16.000Z"
   },
-  "location": "Bologna",
-  "attribute": "humidity",
-  "value": 66,
+  "location": "Chamonix",
+  "attribute": "temperature",
+  "value": 15.020000000000039,
   "userid": {
     "$oid": "661fd8518fcb57c2b206ba40"
   },
