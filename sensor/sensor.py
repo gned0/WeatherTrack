@@ -6,7 +6,7 @@ import requests
 import datetime
 import random
 
-time.sleep(10)
+time.sleep(60)
 queue_name = "weather"
 sensor_identifier = os.getenv("HOSTNAME")
 sensor_location = os.getenv("SENSOR_LOCATION")
@@ -51,8 +51,6 @@ def start_producing():
         time.sleep(frequency)
 
 if __name__ == '__main__':
-    time.sleep(40)
-
     connection = pika.BlockingConnection(pika.ConnectionParameters('rabbitmq-broker'))
     channel = connection.channel()
 
