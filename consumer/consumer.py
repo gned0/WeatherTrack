@@ -6,7 +6,7 @@ import datetime
 import os
 
 print("Waiting for message broker startup")
-time.sleep(25)
+time.sleep(40)
 mongo_host = os.environ.get('MONGODB_HOST', 'mongodb://localhost:27017/')
 client = MongoClient(mongo_host, retryWrites=False)
 db = client['weather']

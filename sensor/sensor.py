@@ -51,7 +51,7 @@ def start_producing():
         time.sleep(frequency)
 
 if __name__ == '__main__':
-    time.sleep(15)
+    time.sleep(40)
 
     connection = pika.BlockingConnection(pika.ConnectionParameters('rabbitmq-broker'))
     channel = connection.channel()
