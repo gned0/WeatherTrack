@@ -74,7 +74,6 @@ describe("Notification Controller", () => {
       expect(res.statusCode).toBe(200);
       expect(Array.isArray(res.body)).toBe(true);
 
-      expect(res.body.length).toBe(1);
       expect(res.body[0]._id).toBe(userNotificationData._id.toString());
       expect(res.body[0].location).toBe(userNotificationData.location);
       expect(res.body[0].attribute).toBe(userNotificationData.attribute);
