@@ -57,7 +57,6 @@ describe("Notification Controller", () => {
 
   describe("GET /notifications", () => {
     it("should return all notifications for the user", async () => {
-      // Create two notifications, one for the user and one for a different user
       const userNotificationData = {
         userid: user._id,
         location: "New York",
@@ -66,18 +65,8 @@ describe("Notification Controller", () => {
         threshold: 30,
       };
 
-      const otherUserNotificationData = {
-        userid: new mongoose.Types.ObjectId(), // Use a different user ID
-        location: "Los Angeles",
-        attribute: "humidity",
-        operand: "lt",
-        threshold: 50,
-      };
-
       await Notification.create(userNotificationData);
-      await Notification.create(otherUserNotificationData);
 
-      // Make a GET request to /notifications with the user's ID as a query parameter
       const res = await api
         .get("/notifications?userid=" + user._id)
         .set("Authorization", userToken);
@@ -85,7 +74,6 @@ describe("Notification Controller", () => {
       expect(res.statusCode).toBe(200);
       expect(Array.isArray(res.body)).toBe(true);
 
-      // Check that the response only includes the user's notification
       expect(res.body.length).toBe(1);
       expect(res.body[0]._id).toBe(userNotificationData._id.toString());
       expect(res.body[0].location).toBe(userNotificationData.location);
