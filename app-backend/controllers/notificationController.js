@@ -25,8 +25,12 @@ exports.create = (req, res) => {
 };
 
 exports.findAll = (req, res) => {
-  console.log("findAll")
-  Notification.find()
+  console.log("findAll");
+  const userId = req.query.userid;
+
+  const query = userId ? { userid: userId } : {};
+
+  Notification.find(query)
     .then((notifications) => {
       res.send(notifications);
     })
@@ -34,6 +38,7 @@ exports.findAll = (req, res) => {
       res.status(500).send({ message: err });
     });
 };
+
 
 exports.findOne = (req, res) => {
   Notification.findById(req.params.id)
